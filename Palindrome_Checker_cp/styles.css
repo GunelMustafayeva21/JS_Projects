@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+#rules p{
+    width:40%;
+    
+}
+h1,p{
+    color:rgb(188, 112, 125);
+}
+#check{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+   
+}
+#rules{
+    
+   
+    text-align: center;
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color:rgb(188, 112, 125);
+}
+#process input{
+    width:200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+#process button{
+    width:100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+
